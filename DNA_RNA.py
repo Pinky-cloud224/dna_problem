@@ -24,7 +24,7 @@ invalid_dna=[]
 for element in dna_sample:
     if (element not in valid_dna) and (element not in invalid_dna):
         mutation=invalid_dna.append(element)
-        print(invalid_dna)
+print(invalid_dna)
 
 #ANOTHER WAY:
 dna_sample="AGGGTCCTAHCGHVVTACGTAUUUUURRRRRCHHTCGGTCA"
